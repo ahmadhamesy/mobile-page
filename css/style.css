@@ -1,0 +1,176 @@
+ @font-face{
+     font-family: ar-font;
+     src: url(../fonts/Cairo-SemiBold.ttf);
+
+ }
+ body{
+     direction: rtl;
+     font-family: ar-font;
+ }
+ header{
+    background-image: url(../img/coming-soon/header-bg.jpg);
+    background-size:cover ;
+    background-position: center center;
+}
+header .brand{
+    padding: 20px 10px;
+    margin: 80px auto 50px;
+    border-bottom: 5px solid #474c55;
+    display: inline-block;
+}
+header .page-heading h1{
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+    line-height: 75px;
+
+}
+header .page-heading p{
+    font-size: 18px;
+    color:white;
+    line-height: 25px;
+    width: 40%;
+    margin: 0 auto
+}
+header .counter .countdown-amount{
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffce00;
+    display: block;
+}
+header .counter .countdown-period{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+}
+header .counter .countdown-section{
+    display:inline-block;
+    margin: 0 20px;
+}
+header .counter{
+    margin: 60px auto;
+    padding: 30px;
+}
+header .send-notification{
+    font-size: 18px;
+    color: #ffffff;
+    
+}
+header .send-notification .input-group input,footer .input-group{
+    font-size: 18px;
+    font-family: ar-font;
+    border-radius: 0px;
+    border-width: 2px;
+    border-color:yellow;
+}
+header .send-notification .input-group button,footer button{
+    border-radius: 0px;
+    padding: .5rem 1.5rem;
+    background-color:black;
+}
+footer button{
+    background-color:black;
+}
+header .send-notification .input-group,footer .input-group{
+    width: 30%;
+    margin: 0 auto;
+}
+header .send-notification .input-group .alert,footer .alert{
+    position:absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    display: none;
+}
+section.features h2{
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: #555555;
+}
+section.features{
+    padding: 100px 0;
+}
+section.features .media{
+    border: 4px solid #fafafa;
+    padding: 40PX 10PX;
+    margin-bottom: 20px;
+}
+section.features .media .media-body h5{
+    font-size: 24px;
+    color: #555;
+}
+section.features .media .media-body p{
+    font-size: 15px;
+    color: #a1a1a1;
+    line-height: 25px;
+}
+section.features div[class*="col-"]:nth-child(even){
+    text-align: left;
+}
+footer{
+    background-image: url(../img/coming-soon/footer-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+footer .top-footer .overlay {
+    background-color: rgba(255, 204, 0, 0.7);
+    padding: 60px 0 ;
+
+}
+footer .top-footer .overlay h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+footer .contact .overlay {
+    background-color: rgba(28, 28, 28, 0.7);
+    padding: 60px 0 10px;
+    color: #fff; 
+}
+footer .contact .overlay {
+    font-size: 30px;
+    margin: 0 auto 30px;
+
+}
+footer .contact .overlay ul li a{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    background-color: rgba(255, 255,255,0.14);
+    color: #fff;
+    font-size: 1.2em;
+    padding-top: 20%;
+} 
+footer .contact .overlay ul{
+    margin: 0 5px 10px;
+} 
+footer .contact .overlay ul li a:hover{
+    background-color: #ffce00;
+    text-align: center;
+} 
+footer .contact .overlay hr{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 25%;
+    margin-top: 50px;
+}
+footer .contact .overlay p a{
+    color: #b4b4b4;
+    text-align: center;
+}
+footer .contact .overlay p a i{
+    color: #ffce00;
+    margin-left: 5px;
+    text-align: center;
+}
+footer .contact .overlay ul li i 
+{
+    text-align: center center;
+}
+
+@media(max-width: 767px){
+    header .send-notification .input-group,footer .input-group{
+        width: 50%;
+        margin: 0 auto;
+    } 
+}
